@@ -50,6 +50,10 @@ a{
     cursor: pointer;
 }
 
+.menu-item:hover{
+    color: orange;
+}
+
 .try-free{
     font-size: 18px;
     font-weight: 600;
