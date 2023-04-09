@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.container{
+    margin-left: 10%;
+    margin-top: 3%;
+    height: 85vh;
+    width: 80vw;
+}
+
+h1{
+    font-size: 70px;
+    line-height: 80px;
+}
+
+.b{
+    border: 1px black solid;
+}
+
+a{
+    all: unset;
+    cursor: pointer;
+}
+
+.menu-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.click-menu-center{
+    margin-top: 20px;
+}
+
+.font-small{
+    font-size: 20px;
+    color: rgb(110, 110, 110);
+    font-weight: 500;
+}
+
+.menu-item{
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.try-free{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: rgb(1, 65, 1);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.click-menu-right{
+    margin-top: 8px;
+}
+
+main{
+    margin-top: 90px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-content{
+    width: 50%;
+    margin-top: 40px;
+}
+
+.hero-img{
+    height: 450px;
+}
+
+img{
+    height: 100%;
+}
+
+footer{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 8%;
+}
+
+.footer-imgs{
+    margin-top: 25px;
+}
+
+.footer-imgs-item{
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.rating-imgs{
+    vertical-align: middle;
+}
+
+.rating-img{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#popup-items-menu{
+    z-index: 1;
+    background-color: white;
+    width: 500px;
+    display: inline-block;
+    position: absolute;
+    transform: translate(-30%, 15%);
+    padding: 35px;
+    border-radius: 15px;
+    visibility: hidden;
+    z-index: 3;
+}
+
+.popup-item{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.popup-text{
+    margin-left: 10px;
+}
+
+#popup-items-menu::after {
+    z-index: 1;
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 23%;
+    margin-left: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+
+h3{
+    font-size: 18px;
+    color: black;
+}
+
+#click{
+    z-index: 2;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.534);
+    display: none;
+}
+
+.login-menu{
+    text-align: center;
+    background-color: lightyellow;
+    height: 55vh;
+    width: 40vw;
+    line-height: 80px;
+    border-radius: 15px;
+}
+
+.font-medium{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-img-login{
+    height: 510px;
+}
+
+.login-title{
+    font-size: 70px;
+    margin-left: 50px;
+    font-weight: 600;
+}
+
+.sign-in-up{
+    text-decoration: underline;
+}
+
+.sign-in-up:hover{
+    color: orange;
+    cursor: pointer;
+}

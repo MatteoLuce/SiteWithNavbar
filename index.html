@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ondeck: HomePage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <span id="click" onclick="clickclose()"></span>
+    <div class="container">
+        <header>
+            <div class="menu-top">
+                <img src="Assets/Logo.svg" alt="" style="margin-top: 14px;">
+                <div class="click-menu-center font-small">
+                    <span onclick="showpopmenu()" href="" class="menu-item">Products
+                        <span id="popup-items-menu">
+                            <div class="popup-item">
+                                <img src="Assets/Spense_Icon.svg" alt="">
+                                <div class="popup-text">
+                                    <h3>Spense</h3>
+                                    <p>Spence is a landing page for writers. Great for practicing absolute positioning and flex layouts.</p>
+                                </div>
+                            </div>
+                            <div class="popup-item">
+                                <img src="Assets/Fiber_Icon.svg" alt="">
+                                <div class="popup-text">
+                                    <h3>Fiber Landing Page</h3>
+                                    <p>An online portfolio generator. Great to practice flex/grid layouts, and absolute positioning.</p>
+                                </div>
+                            </div>
+                            <div class="popup-item">
+                                <img src="Assets/Gradie_Icon.svg" alt="">
+                                <div class="popup-text">
+                                    <h3>Gradie Sign Up Page</h3>
+                                    <p>Gradie is a simple sign up page, great to practice centering layouts.</p>
+                                </div>
+                            </div>
+                        </span>
+                    </span>
+                    <a href="" class="menu-item">Challenges</a>
+                    <a href="" class="menu-item">Resources</a>
+                    <a href="" class="menu-item">Other Links</a>
+                </div>
+                <div class="click-menu-right font-small">
+                    <a href="signin.html" class="menu-item">Sign in</a>
+                    <button class="try-free">Try for free</button>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="hero">
+                <div class="hero-content">
+                    <h1>Ondeck is your remote <span style="color: orange;">conferece calling tool</span></h1>
+                    <p class="font-small">Ondeck is a service that allows you to create beautiful, online, and encrypted video calls for you and your remote team.</p>
+                    <br>
+                    <button class="try-free">Try for free</button>
+                    <br>
+                    <br>
+                    <div class="font-small">
+                        <span>5.0 Rating basd on reviews from: </span>
+                        <span class="rating-imgs">
+                            <img class="rating-img" src="Assets/Capterra Logo.svg" alt="">
+                            <img class="rating-img" src="Assets/AlternativeTo Logo.svg" alt="">
+                        </span>
+                    </div>
+                </div>
+                <div class="hero-img">
+                    <img src="Assets/Hero Image.png" alt="">
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p class="font-small">Trusted by 3+ million people at companies like</p>
+            <div class="footer-imgs">
+                <img class="footer-imgs-item" src="Assets/Netflix Logo.svg" alt="">
+                <img class="footer-imgs-item" src="Assets/Shopify Logo.svg" alt="">
+                <img class="footer-imgs-item" src="Assets/Spotify Logo.svg" alt="">
+                <img class="footer-imgs-item" src="Assets/Walmart Logo.svg" alt="">
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
