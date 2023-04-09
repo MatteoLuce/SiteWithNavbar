@@ -5,10 +5,22 @@ function showpopmenu(){
     clickboard.style.display = "inline-block";
 }
 
+function showpopmenuMobile(){
+    let showmenu = document.getElementById("popup-items-menu-mobile");
+    showmenu.style.visibility = "visible";
+    let clickboard = document.getElementById("click");
+    clickboard.style.display = "inline-block";
+}
+
 function clickclose(){
     let showmenu = document.getElementById("popup-items-menu");
     showmenu.style.visibility = "hidden";
     let clickboard = document.getElementById("click");
+    clickboard.style.display = "none";
+
+    let showmenuMobile = document.getElementById("popup-items-menu-mobile");
+    showmenuMobile.style.visibility = "hidden";
+    let clickboardMobile = document.getElementById("click");
     clickboard.style.display = "none";
 }
 
