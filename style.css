@@ -50,7 +50,7 @@ a{
     cursor: pointer;
 }
 
-.menu-item:hover{
+.orange-hover:hover{
     color: orange;
 }
 
@@ -298,6 +298,25 @@ h3{
 
     #close-icon{
         transform: translate(-0%, -3px);
+    }
+
+    .hero-img-login{
+        display: none;
+    }
+
+    .login-title{
+        font-size: 40px;
+        margin-left: 10px;
+        font-weight: 600;
+    }
+
+    input{
+        width: 100%;
+    }
+
+    .font-medium{
+        font-size: 20px;
+        font-weight: 600;
     }
 
 }
